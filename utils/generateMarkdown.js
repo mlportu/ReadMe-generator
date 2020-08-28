@@ -34,11 +34,32 @@ writeFile(sampleHtml)
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
+  # Project Title
 
-  ## ${data.title}
+  ## Description
+  Description text
 
-  ### H3
+  ## Table of Contents
+  * Item 1
+  * Item 2
+
+  ## Installation
+  Installation Guidelines Text
+
+  ## Usage
+  Usage Guideline TExt
+
+  ## Credits
+  List of credits
+
+  ## License
+  Selected Licenses
+
+  ## Contributing 
+  Guidance of how to contribute
+
+  ## Tests
+  Available Tests 
 `;
 }
 
