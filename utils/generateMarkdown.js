@@ -33,6 +33,7 @@ writeFile(sampleHtml)
 
 // function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data)
   return `
   # Project Title
 
